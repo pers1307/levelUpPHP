@@ -31,10 +31,10 @@ class ShopProduct
     }
 }
 
-$product1 = new ShopProduct();
+$product1 = new ShopProduct(1, 1, 1, 1);
 print $product1->title;
 
-$product2 = new ShopProduct();
+$product2 = new ShopProduct('Собачье сердце', 'Булгаков', 'Михаил', 5.99);
 $product2->title             = 'Собачье сердце';
 $product2->producerMainName  = 'Булгаков';
 $product2->producerFirstName = 'Михаил';
@@ -45,3 +45,24 @@ print 'Автор: ' . $product2->getProducer();
 
 var_dump($product1); // Рядом с объектов выводится его уникальный идентификатор
 var_dump($product2);
+
+// Пример определения типов
+//is_null();
+//is_bool();
+//is_array();
+//is_resource();
+
+//Простая работа с xml
+//$settings = simplexml_load_file("settings.xml");
+
+class ShopProductWriter
+{
+    public function write($shopProduct)
+    {
+        $str = $shopProduct->title . ' : ' . $shopProduct->getProducer() . ' ' . $shopProduct->price;
+        print $str;
+    }
+}
+
+$writer = new ShopProductWriter();
+$writer->write($product2);
