@@ -57,12 +57,21 @@ var_dump($product2);
 
 class ShopProductWriter
 {
-    public function write($shopProduct)
+    public function write(ShopProduct $shopProduct) // Так можно уточнить тип данных передаваемый в метод
     {
         $str = $shopProduct->title . ' : ' . $shopProduct->getProducer() . ' ' . $shopProduct->price;
         print $str;
+    }
+
+    public function isArray(array $arr)
+    {
+        // Проверка на массив, для остальных стандартных типов данных используем is_int и прочее
     }
 }
 
 $writer = new ShopProductWriter();
 $writer->write($product2);
+
+
+var_dump($writer instanceof ShopProductWriter); // Проверка принадлежности экземпляра класса к классу
+var_dump(is_a($writer, 'ShopProductWriter'));
