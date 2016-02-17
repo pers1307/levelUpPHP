@@ -53,6 +53,11 @@ class Person
         return method_exists($this, $method);
     }
 
+    function __call() // вызывается при обращении к несуществующему методу
+    {
+
+    }
+
     function getName()
     {
         return 'Ivan';
@@ -62,6 +67,23 @@ class Person
     {
         return 45;
     }
+
+    function __destruct() // деструктор сайта
+    {
+
+    }
+
+    function __clone() // правила клонирования объекта в концепции склонированного объекта.
+    {
+        // перед этим методом произойдет нативное копирование
+        // свойства лбъекты будут копироваться по ссылке
+        // исключая случаи принудительного копирования
+    }
+
+    function __toString()
+    {
+        return '';
+    }
 }
 
 $p = new Person();
@@ -70,3 +92,6 @@ var_dump(isset($p->name));
 $p->name = 'qwerty';
 $p->age = 300;
 var_dump($p);
+
+$p2 = clone $p; // копирование объекта
+$p3 = $p; // передача по ссылке
