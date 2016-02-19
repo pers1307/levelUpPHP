@@ -67,4 +67,3 @@ $zamikanie = function ($product) use ($amt, &$count){
 //print_r(get_class_methods('ProcessSale'));
 // get_class_vars()
 // get_parent_class // is_subclass_of($prod, 'название родителя')
-
