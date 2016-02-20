@@ -30,4 +30,10 @@ class CalculatorTests extends PHPUnit_Framework_TestCase
         $result = $this->calculator->add(1, 2);
         $this->assertEquals(3, $result);
     }
+
+    public function testFail()
+    {
+        $this->setExpectedException('Exception'); // Если не выдается это исключение, то тест падает
+        $this->fail('Something went wrong');
+    }
 }

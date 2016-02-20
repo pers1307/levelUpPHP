@@ -9,10 +9,12 @@
         <CLASSES>
           <root url="phar://$MODULE_DIR$/composer.phar" />
           <root url="phar://$MODULE_DIR$/phpunit.phar" />
+          <root url="phar://$MODULE_DIR$/phing.phar" />
         </CLASSES>
         <SOURCES>
           <root url="phar://$MODULE_DIR$/composer.phar" />
           <root url="phar://$MODULE_DIR$/phpunit.phar" />
+          <root url="phar://$MODULE_DIR$/phing.phar" />
         </SOURCES>
       </library>
     </orderEntry>

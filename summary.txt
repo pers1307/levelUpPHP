@@ -15,4 +15,8 @@
 15. Для документации удобно использовать phpDocumentor (http://www.phpdoc.org/)
     установка через Composer. Прописать в командной строке
     (vendor\bin\phpdoc -d ./ForDoc/ -t ./docs)
-16.
+16. Для загрузки PHPUnit composer require "phpunit/phpunit=4.8.*"
+17. Для запуска тестирования использовать команду: php phpunit.phar CalculatorTest.php
+18. Но лучше, поместить все тесты к отдельный каталог и запустить их разом используя
+    команду: php phpunit.phar test/
+19.
