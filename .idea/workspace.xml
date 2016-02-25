@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e434703c-60bd-4b56-a370-bc8d1e5b2181" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\Money.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\MoneyTest.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CalculatorTest.php" afterPath="$PROJECT_DIR$/CalculatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Abs factory and fact method.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Composite.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/levelUpPHP.iml" afterPath="$PROJECT_DIR$/.idea/levelUpPHP.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/summary.txt" afterPath="$PROJECT_DIR$/summary.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -36,17 +32,37 @@
         <entry file="file://$PROJECT_DIR$/summary.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4473684">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractFactory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Composite.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Composite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6430446">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -55,7 +71,7 @@
       <file leaf-file-name="static.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
+            <state vertical-scroll-proportion="0.0">
               <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
               <folding />
             </state>
@@ -65,7 +81,7 @@
       <file leaf-file-name="anonim.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anonim.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.5">
+            <state vertical-scroll-proportion="0.0">
               <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
               <folding />
             </state>
@@ -75,7 +91,7 @@
       <file leaf-file-name="UserStore.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHPUnit/UserStore.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.5">
+            <state vertical-scroll-proportion="0.0">
               <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
               <folding />
             </state>
@@ -85,7 +101,7 @@
       <file leaf-file-name="Calculator.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
@@ -95,7 +111,7 @@
       <file leaf-file-name="CalculatorTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalculatorTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.653846">
+            <state vertical-scroll-proportion="0.0">
               <caret line="35" column="100" selection-start-line="35" selection-start-column="100" selection-end-line="35" selection-end-column="100" />
               <folding />
             </state>
@@ -125,8 +141,10 @@
         <option value="$PROJECT_DIR$/MoneyTest.php" />
         <option value="$PROJECT_DIR$/Calculator.php" />
         <option value="$PROJECT_DIR$/CalculatorTest.php" />
-        <option value="$PROJECT_DIR$/summary.txt" />
         <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/summary.txt" />
+        <option value="$PROJECT_DIR$/Abs factory and fact method.php" />
+        <option value="$PROJECT_DIR$/Composite.php" />
       </list>
     </option>
   </component>
@@ -143,10 +161,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
-    <option name="y" value="339" />
-    <option name="width" value="1005" />
-    <option name="height" value="635" />
+    <option name="x" value="9" />
+    <option name="y" value="390" />
+    <option name="width" value="988" />
+    <option name="height" value="586" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -171,8 +189,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,20 +206,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="levelUpPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levelUpPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="levelUpPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,18 +261,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="339" width="1005" height="635" extended-state="0" />
+    <frame x="9" y="390" width="988" height="586" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21164021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28663793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45238096" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45238096" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -297,13 +301,66 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/summary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonim.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPUnit/UserStore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="100" selection-start-line="35" selection-start-column="100" selection-end-line="35" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/reference.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#210#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -317,23 +374,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7118644">
-          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
-          <folding>
-            <element signature="e#6#201#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reference.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.44067797">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#210#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -349,7 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -357,13 +400,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
+        <state vertical-scroll-proportion="0.0">
           <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
           <folding />
         </state>
@@ -373,22 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39955848">
           <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1981352">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2767442">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -405,15 +431,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37527594">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#6#243#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/anonim.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
           <folding />
         </state>
@@ -421,7 +444,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PHPUnit/UserStore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
           <folding />
         </state>
@@ -429,7 +452,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
@@ -437,8 +460,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculatorTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.653846">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="100" selection-start-line="35" selection-start-column="100" selection-end-line="35" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20884521">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -446,15 +477,51 @@
     <entry file="file://$PROJECT_DIR$/summary.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7322835">
+          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+          <folding>
+            <element signature="e#6#201#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abs factory and fact method.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7769029">
+          <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+          <folding>
+            <element signature="n#TerrainFactory#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Composite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6430446">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding />
         </state>
       </provider>

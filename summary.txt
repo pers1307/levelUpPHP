@@ -12,7 +12,7 @@
 12. class_exists
 13. Reflection API для анализа экземпляров класса. (стр 114)
 14. Обязанность каждого класса должна быть единичной.
-15. Для документации удобно использовать phpDocumentor (http://www.phpdoc.org/)
+15. Для документации удобно использовать phpDocumentor (http://www.phpdoc.org/) composer require phpdocumentor/phpdocumentor
     установка через Composer. Прописать в командной строке
     (vendor\bin\phpdoc -d ./ForDoc/ -t ./docs)
 16. Для загрузки PHPUnit composer require "phpunit/phpunit=4.8.*"
