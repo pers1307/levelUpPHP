@@ -1,8 +1,18 @@
 <?xml version="1.0"?>
-    <!-- build xml -->
 
 <project name="pmegaquiz" default="main">
-    <target name="runfirst" />
-    <target name="runsecond" depends="runfirst"/>
-    <target name="main" depends="runsecond" description="Yiiiiiii"/>
+
+    <property name="dbname" value="megaquiz"  />
+    <property name="dbpass" value="default"   />
+    <property name="dbhost" value="localhost" />
+
+    <target name="main" unless="suppressmain">
+        <echo>database: ${dbname}</echo>
+        <echo>pass: ${dbpass}</echo>
+        <echo>host: ${dbhost}</echo>
+    </target>
+
+    <!--<target name="runfirst" />-->
+    <!--<target name="runsecond" depends="runfirst"/>-->
+    <!--<target name="main" depends="runsecond" description="Yiiiiiii"/>-->
 </project>
