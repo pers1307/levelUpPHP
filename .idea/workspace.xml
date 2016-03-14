@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e434703c-60bd-4b56-a370-bc8d1e5b2181" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\Abs factory and fact method.php" afterPath="$PROJECT_DIR$/patterns/Abs factory and fact method.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\AbstractFactory.php" afterPath="$PROJECT_DIR$/patterns/AbstractFactory.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\Calculator.php" afterPath="$PROJECT_DIR$/PHPUnit/Calculator.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\CalculatorTest.php" afterPath="$PROJECT_DIR$/PHPUnit/CalculatorTest.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\Composite.php" afterPath="$PROJECT_DIR$/patterns/Composite.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\CompositeMode.php" afterPath="$PROJECT_DIR$/patterns/CompositeMode.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\FactoryMethod.php" afterPath="$PROJECT_DIR$/patterns/FactoryMethod.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\Registry.php" afterPath="$PROJECT_DIR$/patterns/Registry.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\anonim.php" afterPath="$PROJECT_DIR$/other/anonim.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\build.xml" afterPath="$PROJECT_DIR$/phing/build.xml" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\classes.php" afterPath="$PROJECT_DIR$/other/classes.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\ext.php" afterPath="$PROJECT_DIR$/other/ext.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\fabric.php" afterPath="$PROJECT_DIR$/patterns/fabric.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\interceptors.php" afterPath="$PROJECT_DIR$/other/interceptors.php" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\page 220 240 277 309 473.txt" afterPath="$PROJECT_DIR$/page 277 309 473.txt" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\phing.phar" afterPath="$PROJECT_DIR$/phing/phing.phar" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\phpunit.phar" afterPath="$PROJECT_DIR$/PHPUnit/phpunit.phar" />
-      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\reference.php" afterPath="$PROJECT_DIR$/other/reference.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interpreter.php" afterPath="$PROJECT_DIR$/Interpreter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Visitor.php" afterPath="$PROJECT_DIR$/Visitor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/levelUpPHP.iml" afterPath="$PROJECT_DIR$/.idea/levelUpPHP.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static.php" afterPath="$PROJECT_DIR$/static.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/base/AppException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/controller/ApplicationHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/base/ApplicationRegistry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/base/MemApplicationRegistry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/base/Registry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/controller/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/base/RequestRegistry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/base/SessionRegistry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woo/data/woo_options" />
+      <change type="MOVED" beforePath="C:\OpenServer\domains\localhost\levelUpPHP\static.php" afterPath="$PROJECT_DIR$/other/static.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="levelUpPHP.iws" />
@@ -59,34 +47,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Interpreter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interpreter.php">
+      <file leaf-file-name="SessionRegistry.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woo/base/SessionRegistry.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state vertical-scroll-proportion="-28.115385">
+              <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationRegistry.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woo/base/ApplicationRegistry.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-28.192308">
+              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestRegistry.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woo/base/RequestRegistry.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.192307">
+              <caret line="22" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemApplicationRegistry.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/woo/base/MemApplicationRegistry.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45721272">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#6#55#0#PHP" expanded="true" />
+                <element signature="e#6#56#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Visitor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visitor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="47.73077">
-              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registry.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/patterns/Registry.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.103785105">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -124,7 +122,16 @@
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/Interpreter.php" />
         <option value="$PROJECT_DIR$/static.php" />
+        <option value="$PROJECT_DIR$/patterns/Registry.php" />
         <option value="$PROJECT_DIR$/Visitor.php" />
+        <option value="$PROJECT_DIR$/woo/base/AppException.php" />
+        <option value="$PROJECT_DIR$/woo/controller/ApplicationHelper.php" />
+        <option value="$PROJECT_DIR$/woo/base/Registry.php" />
+        <option value="$PROJECT_DIR$/woo/controller/Request.php" />
+        <option value="$PROJECT_DIR$/woo/base/RequestRegistry.php" />
+        <option value="$PROJECT_DIR$/woo/base/SessionRegistry.php" />
+        <option value="$PROJECT_DIR$/woo/base/ApplicationRegistry.php" />
+        <option value="$PROJECT_DIR$/woo/base/MemApplicationRegistry.php" />
       </list>
     </option>
   </component>
@@ -199,7 +206,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="patterns" />
+              <option name="myItemId" value="woo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levelUpPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levelUpPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levelUpPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levelUpPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,7 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static.php">
+    <entry file="file://$PROJECT_DIR$/other/static.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
@@ -513,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.089238845">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32673267">
@@ -539,25 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22832723">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.413794">
-          <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22832723">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -607,34 +628,135 @@
         <state vertical-scroll-proportion="0.51892555">
           <caret line="25" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="173" selection-end-column="20" />
           <folding>
-            <element signature="e#6#218#0#PHP" expanded="true" />
+            <element signature="e#6#218#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interpreter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visitor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="47.73077">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/patterns/Registry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.103785105">
+        <state vertical-scroll-proportion="0.083028086">
+          <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.041514043">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/data/woo_options">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/controller/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020782396">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/base/AppException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.083129585">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/controller/ApplicationHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3948655">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visitor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06234719">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interpreter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06234719">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#55#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/base/Registry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16625917">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/base/SessionRegistry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.115385">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16870415">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/base/ApplicationRegistry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.192308">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/base/RequestRegistry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.192307">
+          <caret line="22" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.413794">
+          <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woo/base/MemApplicationRegistry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45721272">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
