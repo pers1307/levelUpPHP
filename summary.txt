@@ -27,4 +27,6 @@
 20. Магический метод __sleep() вызывается, когда объект сериализуется.
 21. Магический метод __wakeup() вызывается, когда объект десериализуется.
 22. Паттерн Front - Controller, очень важно внедрить его! стр. 275
-23.
+23. Для установки CodeSniffer composer require squizlabs/php_codesniffer
+24. Для запуска CodeSniffer vendor\bin\phpcs Visitor.php и выдаст все необходимы для исправления ошибки.
+25. https://github.com/squizlabs/PHP_CodeSniffer/wiki справка к Code Sniffer.
