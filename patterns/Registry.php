@@ -3,7 +3,6 @@
 /**
  * Class Registry
  * Смысл паттерна в кот, что это глобальные переменные обернутые в siglaeton
- *
  */
 abstract class Registry
 {

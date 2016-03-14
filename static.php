@@ -33,7 +33,7 @@ interface Chargeable
     public function getPrice();
 }
 
-// class W extends T impaments W, WW {} мсожно унаследовать 2а и более интерфейсов
+// class W extends T impaments W, WW {} можно унаследовать 2а и более интерфейсов
 
 // Крутой хак, на создание класса (а - ля Фабрика)
 
