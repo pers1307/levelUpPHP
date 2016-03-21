@@ -3,6 +3,7 @@
 namespace woo\controller;
 
 use woo\base\AppException;
+use woo\base\ApplicationRegistry;
 
 class ApplicationHelper
 {
@@ -24,29 +25,33 @@ class ApplicationHelper
 
     function init()
     {
-        //$dsn = ApplicationRegistry::getDSN();
+        $dsn = ApplicationRegistry::getDSN();
 
-//        if (!is_null($dsn)) {
-//            return;
-//        }
+        if (!is_null($dsn)) {
+            // Данные хранятся в кэше
+            return;
+        }
 
         $this->getOptions();
     }
 
-    function getOptions()
+    private function getOptions()
     {
-        if (!file_exists('data/woo_options.xml')) {
-            throw new AppException('Файл не найден');
-        }
+        $this->ensure(file_exists($this->config), 'Файл конфигурации не найден');
+        $options = simplexml_load_file($this->config);
 
-        $options = simplexml_load_file('data/woo_options.xml');
+        print get_class($options);
         $dsn = (string)$options->dsn;
-
-        //...
+        $this->ensure($options instanceof \SimpleXMLElement, 'Файл конфигурации запорчен');
+        $this->ensure($dsn, 'DSN не найден');
+        ApplicationRegistry::setDSN($dsn);
+        // ...
     }
 
     private function ensure($expr, $message)
     {
-
+        if (!$expr) {
+            throw new AppException($message );
+        }
     }
 }

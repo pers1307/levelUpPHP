@@ -21,6 +21,7 @@ class Controller
 
     function init()
     {
+        // В классе ApplicationHelper хранятся настройки для всего приложения
         $applicationHelper = ApplicationHelper::instance();
         $applicationHelper->init();
     }
