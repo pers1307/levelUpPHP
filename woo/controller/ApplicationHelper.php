@@ -4,6 +4,7 @@ namespace woo\controller;
 
 use woo\base\AppException;
 use woo\base\ApplicationRegistry;
+use woo\command\Command;
 
 class ApplicationHelper
 {
@@ -45,7 +46,18 @@ class ApplicationHelper
         $this->ensure($options instanceof \SimpleXMLElement, 'Файл конфигурации запорчен');
         $this->ensure($dsn, 'DSN не найден');
         ApplicationRegistry::setDSN($dsn);
-        // ...
+
+        $map = new ControllerMap();
+
+        foreach ($options->control->view as $default_view) {
+            $stat_str = trim($default_view['status']);
+            $status = Command::statues($stat_str);
+            $map->addView('default', $status, (string)$default_view);
+        }
+
+        // анализ остальных кодов
+
+        ApplicationRegistry::setControllerMap($map);
     }
 
     private function ensure($expr, $message)

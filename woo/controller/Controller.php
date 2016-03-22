@@ -2,6 +2,7 @@
 
 namespace woo\controller;
 
+use woo\base\ApplicationRegistry;
 use woo\command\CommandResolver;
 
 class Controller
@@ -29,8 +30,24 @@ class Controller
     function handleRequest()
     {
         $request = new Request();
-        $cmd_r = new CommandResolver();
-        $cmd = $cmd_r->getCommand($request);
-        $cmd->execute($request);
+
+        $app_c = ApplicationRegistry::appController();
+
+        while ($cmd = $app_c->getCommand($request)) {
+            print 'Выполняется ' . get_class($cmd) . '\n';
+            $cmd->execute($request);
+        }
+
+        $this->invokeView($app_c->getView());
+
+//        $cmd_r = new CommandResolver();
+//        $cmd = $cmd_r->getCommand($request);
+//        $cmd->execute($request);
+    }
+
+    function invokeView($target)
+    {
+        include 'woo/view/' . $target . '.php';
+        exit;
     }
 }

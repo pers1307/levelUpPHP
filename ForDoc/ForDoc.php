@@ -17,9 +17,18 @@ namespace pers1307\fordoc;
 class Doc
 {
     /**
-     * Этот класс говорит "Hi Documentator!)"
+     * Этот метод говорит "Hi Documentator!)"
      */
     function hiDoc()
+    {
+
+    }
+
+    /**
+     * @param int    $res Номер строки
+     * @param string $red Комментарий
+     */
+    public function hello($res, $red)
     {
 
     }
@@ -33,7 +42,8 @@ class Doc
 class wer extends Doc
 {
     /**
-     * tuu!!!
+     * Метод очень нужен!
+     * @return string
      */
     private function tuu()
     {
@@ -42,6 +52,8 @@ class wer extends Doc
         if ($ret === '') {
             echo 'WOW!';
         }
+
+        return 'aaaa';
     }
 }
 
