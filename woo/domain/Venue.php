@@ -21,6 +21,10 @@ class Venue extends DomainObject
 
     function getSpaces()
     {
+        if (!isset($this->spaces)) {
+            $this->spaces = self::getCollection("woo\\domain\\Space");
+        }
+
         return $this->spaces;
     }
 
